@@ -2,8 +2,36 @@
 
 Марко Апостоловски 225029
 
-1. Креирав GitHub account
-2. Направив README датотека со мој потпис
-3. Додадов јава код во уште еден commit
-4. Направив логови во logs.txt
-5. При крај на завршување на домашната
+ mkdir SI_2025_lab1_22502 // правам фолдер
+   62  cd  SI_2025_lab1_22502 // влагам во фолдерот
+   63  git init // правам git репо
+   64  git status // покажува статус на директориумот
+   65  git remote add origin https://github.com/markac21/SI_2025_lab1_225029.git // спојувам local со remote
+   66  git remote -v // проверувам дали remote бил додаден успешно
+   67  touch README.md // Правам file
+   69  git add README.md // ставам како commit
+   70  notepad README.md // Правам notepad за да ги внесам податоците
+   73  git commit -m "Initial commit" // commit правам со порака
+   74  git push -u origin master // Го ставам на Github
+   76  git status // Проверувам дали све е во ред
+   77  touch SI2025Lab1Main.java // Правам сега нов file
+   78  notepad SI2025Lab1Main.java // Внесувам податоци во notepad
+   79  git add SI2025Lab1Main.java // Го ставам на Stage
+   80  git commit -m "Add strater code" // Правам Commit
+   81  git push -u origin master // Toj commit го ставам на Github
+   82  git branch // Барам на која гранка сум
+   83  git fetch origin // Зимам податоци од Github
+   84  git merge origin/master // Ги зимам тие податоци и ги спојувам со моменталната гранка
+   85  git push origin master // Новите commit ги ставам на Github
+   86  git status // Проверувам статус
+   87  git log --oneline --graph --all > logs.txt // Историја на commit ги ставам во file
+   88  touch 225029.txt // Правам нов file
+   89  notepad 225029.txt // Ги внесувам податоците
+   90  git add logs.txt 225029.txt // Ги ставам тие фајлови на stage
+   95  git commit -m "Final commit" // Правам commit 
+   96  git push origin master // Го пуштам на Github
+   97  git log --oneline // Ми покажува историја на commit
+   98  git branch // Гледам на која гранка сум
+   99  git fetch origin // Зимам податоци од Github
+  100  git merge origin/master // Ги зимам тие податоци и ги спојувам со моменталната гранка
+  101  git push origin master // И го пуштам на Github
